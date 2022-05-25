@@ -54,7 +54,7 @@ public class Main {
 
             switch (userChoice) {
                 case 1:
-                    System.out.println("Please enter in your preferred time delay");
+                    System.out.println("Please enter in your preferred time delay in milliseconds");
                     long delay = sc.nextLong();
                     System.out.println("Please enter the name of the text file located on the desktop i.e. test");
                     String fileName = sc.next();
